@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/macOS-Future%20Support-red">
   <img src="https://img.shields.io/badge/Language-Batch-purple">
   <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
-  <img src="https://img.shields.io/badge/Version-1.5-pink">
+  <img src="https://img.shields.io/badge/Version-2-pink">
 </p>
 
 ## About
