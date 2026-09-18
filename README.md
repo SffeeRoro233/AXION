@@ -164,17 +164,7 @@ Axion LNX has currently only been tested on **Omarchy**.
 
 - Omarchy
 
-Since Axion uses Bash and common Linux commands, it is expected to work on most desktop Linux distributions.
-
-This may include:
-
-- Ubuntu
-- Linux Mint
-- Debian
-- Fedora
-- Arch Linux
-- Manjaro
-- Other desktop Linux distributions
+Since Axion uses Bash and common Linux commands, it should work on most desktop Linux distributions.
 
 However, compatibility with every Linux distribution has not yet been individually verified.
 
@@ -232,31 +222,25 @@ Press **Enter** to open the main interface.
 
 ## Roblox does not launch / Shortcut error
 
-The Windows edition of Axion uses a Windows shortcut to launch Roblox.
+The Windows edition of Axion uses a Roblox Player shortcut to launch Roblox.
 
-The included shortcut may not work on every computer because Windows `.lnk` shortcuts can contain paths specific to the PC where they were originally created.
+The included shortcut may not work on every computer because Windows `.lnk` shortcuts can contain paths specific to the PC where they were originally copied from.
 
-If Roblox does not launch, or Windows displays an error saying that the shortcut or target cannot be found, follow these steps:
+If Roblox does not launch, or Windows displays an error related to the Roblox shortcut:
 
 1. Open the Axion folder
-2. Open the:
-
-`fils`
-
-folder
-
-3. Delete:
+2. Open the `fils` folder
+3. Delete the included:
 
 `Roblox Player.lnk`
 
-4. Find **Roblox Player** on your own computer
-5. Create a shortcut from your own Roblox installation
-6. Move your new shortcut into the Axion `fils` folder
-7. Rename it exactly to:
+4. Find the **Roblox Player shortcut already available on your own computer**
+5. Copy or move your Roblox Player shortcut into the Axion `fils` folder
+6. Rename it exactly to:
 
 `Roblox Player.lnk`
 
-Your folder should look like this:
+Your folder should then look like this:
 
 ```text
 Axion/
@@ -274,9 +258,9 @@ Restart Axion and select:
 
 `[09] Roblox`
 
-Roblox should now launch using the shortcut created from your own computer.
+Roblox should now launch using the Roblox Player shortcut from your own computer.
 
-> ⚠️ **VERY IMPORTANT:** Do not uninstall or delete Roblox itself. Only delete and replace the `Roblox Player.lnk` shortcut located inside the Axion `fils` folder.
+> ⚠️ **VERY IMPORTANT:** Do not uninstall or delete Roblox itself. Only replace the `Roblox Player.lnk` shortcut located inside the Axion `fils` folder.
 
 # Linux Installation
 
@@ -368,7 +352,7 @@ bash Axion.sh
 
 - Current version: `lnx-v1.0.0`
 - Tested on Omarchy
-- Should work on most desktop Linux distributions
+- Should work on most Linux distributions
 - Compatibility with every distribution has not yet been individually verified
 
 ## macOS
@@ -389,7 +373,7 @@ A native `.EXE` edition of Axion is planned for Windows.
 
 ## Roblox does not launch. What should I do?
 
-If you are using the **Windows edition**, the included `Roblox Player.lnk` shortcut may point to a location that does not exist on your computer.
+If you are using the **Windows edition**, the included `Roblox Player.lnk` shortcut may not work on your computer.
 
 Open:
 
@@ -403,23 +387,35 @@ Delete:
 Roblox Player.lnk
 ```
 
-Then create your own Roblox Player shortcut and place it inside the `fils` folder.
+Then find the **Roblox Player shortcut already available on your computer**.
 
-Rename it exactly:
+Copy or move it into:
+
+```text
+Axion/fils/
+```
+
+Rename it exactly to:
 
 ```text
 Roblox Player.lnk
 ```
 
-Then restart Axion.
+Then restart Axion and select:
 
-> ⚠️ Only replace the shortcut. Do not delete Roblox itself.
+```text
+[09] Roblox
+```
+
+> ⚠️ Do not delete or uninstall Roblox itself. Only replace the shortcut inside the Axion `fils` folder.
 
 ## Why doesn't the included Roblox shortcut work on my PC?
 
-Windows `.lnk` shortcuts can contain file paths specific to another computer.
+Windows `.lnk` shortcuts can point to paths that are specific to another computer.
 
-Your Roblox installation may be located somewhere else, so replacing the shortcut with your own fixes the problem.
+Because the location of Roblox can be different from one PC to another, the included shortcut may not find Roblox correctly.
+
+Using the Roblox Player shortcut from your own computer fixes this issue.
 
 ## Does the Roblox shortcut problem affect Linux or macOS?
 
@@ -431,27 +427,27 @@ Linux and macOS use different methods to open Roblox.
 
 ## Why does Axion show a loading screen?
 
-The loading screen is part of the Axion Windows interface.
+The loading screen is part of the Axion Windows startup experience.
 
 It includes:
 
 - Animated AXION logo
 - Moving colors
 - Loading bar
-- READY state
+- `READY` state
 - Enter-to-launch screen
 
 The loading animation lasts approximately **3.3 seconds**.
 
 ## Why do I need to press Enter?
 
-Axion waits on the READY screen so you can see the startup animation before launching the main interface.
+Axion waits on the `READY` screen before displaying the main interface.
 
 Press:
 
 `Enter`
 
-to continue.
+to launch Axion.
 
 ## Linux gives me `$'\r': command not found`. What should I do?
 
@@ -575,7 +571,7 @@ macOS scripts also use the `.sh` extension.
 
 - `lnx-v1.0.0` — First official Linux edition
 
-Currently tested on **Omarchy** and expected to work on most desktop Linux distributions.
+Tested on **Omarchy** and expected to work on most desktop Linux distributions.
 
 ## macOS
 
