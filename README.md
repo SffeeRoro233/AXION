@@ -7,8 +7,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows-All%20Versions-blue">
+  <img src="https://img.shields.io/badge/Windows-Compatible-blue">
   <img src="https://img.shields.io/badge/Linux-Testing%20Soon-orange">
+  <img src="https://img.shields.io/badge/macOS-Not%20Compatible-red">
   <img src="https://img.shields.io/badge/Language-Batch-purple">
   <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
   <img src="https://img.shields.io/badge/Version-1.5-pink">
@@ -18,13 +19,13 @@
 
 Axion is a simple, lightweight and open-source multitool built for Windows.
 
-It currently features a lightly customized CMD interface, with a much more polished and modern interface update planned soon.
+It currently features a lightly customized CMD interface, with a more polished and modern interface update planned soon.
 
 The project is designed to stay simple, fast and easy to use while also being accessible for anyone who wants to modify or expand it.
 
-Axion is designed to work across Windows versions.
+Linux testing is planned to begin soon.
 
-Linux testing is also planned to begin soon.
+macOS is currently not supported because Axion uses Windows Batch files (`.bat`) and CMD.
 
 ## Features
 
@@ -33,10 +34,9 @@ Linux testing is also planned to begin soon.
 - Easy to use
 - Easy to customize
 - Open-source
-- Designed for Windows
-- Support across Windows versions
+- Built for Windows
 - Linux testing coming soon
-- Frequent future updates planned
+- Future updates planned
 
 ## Installation
 
@@ -76,6 +76,14 @@ You can customize:
 - [ ] Linux testing
 - [ ] Linux compatibility
 
+## Compatibility
+
+- Windows ✅
+- Linux 🧪 Testing planned
+- macOS ❌ Not compatible
+
+Axion currently relies on Windows Batch (`.bat`) files and CMD, so macOS cannot run the current version natively.
+
 ## Open Source
 
 Axion is completely open-source and can be modified to fit your own needs.
@@ -102,14 +110,6 @@ To view the scripts used by the different Axion tools:
 4. The full script will be displayed directly on GitHub.
 
 You do not need to download Axion to inspect the source code.
-
-## Compatibility
-
-Axion is designed for Windows and aims to support all Windows versions.
-
-Compatibility can vary on older Windows releases depending on CMD, Unicode and ANSI support.
-
-Linux support is not available yet, but testing is planned to begin soon.
 
 ---
 
