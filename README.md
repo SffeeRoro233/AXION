@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows-v2.1-1F4E79">
+  <img src="https://img.shields.io/badge/Windows-v2.2-1F4E79">
   <img src="https://img.shields.io/badge/Linux-lnx--v1.0.0-D97706">
   <img src="https://img.shields.io/badge/macOS-mac--v1.0.0-3A3A3C">
 </p>
@@ -36,11 +36,15 @@ A macOS edition is also currently being tested and will be available soon.
 
 A native Windows `.EXE` version is also planned.
 
-Axion is continuously evolving with new tools, platform support and interface improvements.
+Axion is continuously evolving with new tools, platform support, animations and interface improvements.
 
 ## Features
 
 - Lightweight interface
+- Animated startup screen
+- Animated AXION logo
+- Moving pink, purple and blue colors
+- Centered loading animation
 - Quick tool launcher
 - Simple navigation
 - Multiple tool categories
@@ -52,21 +56,79 @@ Axion is continuously evolving with new tools, platform support and interface im
 - macOS edition in testing
 - More tools and features planned
 
+## Windows v2.2 Highlights
+
+Axion v2.2 introduces several visual improvements and new features to the Windows edition.
+
+### New Startup Experience
+
+The Windows edition now includes a new animated startup screen.
+
+It includes:
+
+- Animated AXION logo
+- Moving pink, purple and blue colors
+- Large centered loading bar
+- Approximately 3.3 seconds of loading animation
+- `INITIALIZING AXION` message
+- `AXION LOADED` message
+- `READY` state
+- `PRESS ENTER TO LAUNCH AXION`
+- Continuous logo animation while waiting
+- Axion launches after pressing Enter
+
+Once Enter is pressed, the startup screen is cleared and the normal Axion interface is displayed.
+
+### Interface Improvements
+
+- Improved interface centering
+- Improved spacing and alignment
+- Better centered GitHub repository link
+- Added a `WINDOWS EDITION` indicator in the top-right corner
+- Added the current Axion version under the Windows Edition indicator
+- General visual improvements
+
+### New Tools
+
+Axion v2.2 also adds:
+
+- Speedtest
+- GitHub
+
+## Current Tools
+
+### Internet
+
+- Website
+- Speedtest
+
+### Social Networks
+
+- Discord
+- YouTube
+- GitHub
+
+### Applications
+
+- Roblox
+
+More tools will be added in future updates.
+
 ## Current Versions
 
 | Platform | Version | Status |
 |---|---|---|
-| Windows | v2.0 | ✅ Supported |
+| Windows | v2.2.0 | ✅ Supported |
 | Linux | lnx-v1.0.0 | ✅ Supported |
 | macOS | mac-v1.0.0 | 🧪 Testing |
 
 Each platform has its own version numbering.
 
-### Windows
+## Windows
 
 Current version:
 
-`v2.0`
+`v2.2.0`
 
 Windows is the original stable edition of Axion.
 
@@ -75,7 +137,9 @@ Supported systems:
 - Windows 10
 - Windows 11
 
-### Linux
+The Windows edition uses Batch scripts and includes the latest Axion interface, startup animations and tools.
+
+## Linux
 
 Current version:
 
@@ -111,7 +175,7 @@ However, compatibility with every Linux distribution has not yet been individual
 
 If you test Axion on another Linux distribution, you are welcome to report whether it works correctly.
 
-### macOS
+## macOS
 
 Current macOS edition:
 
@@ -123,6 +187,8 @@ It uses macOS-compatible shell scripts and commands while keeping the same Axion
 
 The macOS edition is currently undergoing testing.
 
+It is not yet considered fully stable.
+
 ## Installation
 
 ### Windows
@@ -130,13 +196,32 @@ The macOS edition is currently undergoing testing.
 ⚠️ Make sure you select a **Windows release**, not the Linux or macOS release.
 
 1. Go to the Axion Releases page
-2. Select the latest **Windows** release
-3. Download the official Windows ZIP from the **Assets** section
-4. Extract the ZIP file
-5. Open the Axion folder
-6. Run:
+2. Select the latest Windows release
+3. Look for a release tag beginning with:
+
+`v`
+
+For example:
+
+`v2.2.0`
+
+4. Download the official Windows ZIP from the **Assets** section:
+
+`Axion-Windows-v2.2.0.zip`
+
+5. Extract the ZIP file
+6. Open the Axion folder
+7. Run:
 
 `Axion.bat`
+
+Axion will display its startup animation.
+
+Once the loading screen displays:
+
+`PRESS ENTER TO LAUNCH AXION`
+
+press **Enter** to open the main interface.
 
 ### Linux
 
@@ -155,10 +240,10 @@ Do **not** download a Windows or macOS release if you are using Linux.
 
 3. Download the official Linux package from the **Assets** section:
 
-`Axion-lnx-v1.0.0.zip`
+`Axion-LNX-v1.0.0.zip`
 
 4. Extract the ZIP file
-5. Open a terminal inside the extracted `Axion` folder
+5. Open a terminal inside the extracted Axion folder
 6. Run:
 
 ```bash
@@ -187,7 +272,7 @@ You can then launch Axion with:
 ./Axion.sh
 ```
 
-### macOS
+## macOS Installation
 
 ⚠️ Make sure you select a **macOS release**, not the Windows or Linux release.
 
@@ -197,9 +282,10 @@ macOS releases use tags such as:
 
 The macOS edition is currently being tested and is not yet considered fully stable.
 
-Once available:
+1. Download the official macOS ZIP from the **Assets** section:
 
-1. Download the official macOS ZIP from the **Assets** section
+`Axion-MAC-v1.0.0.zip`
+
 2. Extract the ZIP file
 3. Open Terminal inside the Axion folder
 4. Run:
@@ -216,7 +302,10 @@ bash Axion.sh
 
 - Windows 10
 - Windows 11
-- Current version: `v2.0`
+- Current version: `v2.2.0`
+- Animated startup screen
+- Latest interface improvements
+- Latest Windows tools
 
 ### Linux
 
@@ -232,7 +321,8 @@ bash Axion.sh
 🧪 Testing
 
 - Current edition: `mac-v1.0.0`
-- Public/stable support coming soon
+- Compatibility testing in progress
+- Public stable support coming soon
 
 ### Native EXE
 
@@ -246,10 +336,10 @@ A native `.EXE` edition of Axion is planned for Windows.
 
 - [ ] Native `.EXE` version
 - [ ] macOS stable release
-- [ ] Improved interface
 - [ ] More tools
 - [ ] Better customization
 - [ ] New categories and features
+- [ ] Additional interface improvements
 
 ### Future
 
@@ -257,6 +347,8 @@ A native `.EXE` edition of Axion is planned for Windows.
 - [ ] Additional platform improvements
 - [ ] More cross-platform tools
 - [ ] More Linux distribution testing
+- [ ] Additional startup customization
+- [ ] More animations and visual effects
 
 ## Customization
 
@@ -271,6 +363,8 @@ You can modify:
 - Categories
 - Logo
 - Interface design
+- Startup animation
+- Loading screen
 - Launch options
 
 ## Open Source
@@ -284,6 +378,7 @@ You are free to:
 - Customize the interface
 - Add your own tools
 - Improve existing features
+- Modify the startup animation
 - Create your own version
 
 ## View the Source Code
@@ -326,6 +421,28 @@ Tool scripts are located inside:
 
 macOS scripts also use the `.sh` extension.
 
+## Version History
+
+### Windows
+
+- `v1.0.0` — First Windows version
+- `v1.5.0` — Interface and tool improvements
+- `v2.0.0` — Major interface redesign
+- `v2.1.0` — Additional interface and compatibility improvements
+- `v2.2.0` — New startup animation, interface improvements, Speedtest and GitHub tools
+
+### Linux
+
+- `lnx-v1.0.0` — First official Linux edition
+
+Currently tested on **Omarchy**.
+
+### macOS
+
+- `mac-v1.0.0` — First macOS edition
+
+Currently in testing.
+
 ## Important Download Notice ⚠️
 
 Axion has separate releases for each operating system.
@@ -340,17 +457,17 @@ Make sure you download the correct edition for your system:
 
 For example:
 
-- Windows → `v2.1`
-- Linux → `lnx-v1.0`
-- macOS → `mac-v1.0`
+- Windows → `v2.2.0`
+- Linux → `lnx-v1.0.0`
+- macOS → `mac-v1.0.0`
 
 ### Official Packages
 
 Download the package made for your operating system:
 
-- Windows → `Axion.zip`
-- Linux → `Axion LNX Edition.zip`
-- macOS → `Axion MAC Edition.zip`
+- Windows → `Axion-Windows-v2.2.0.zip`
+- Linux → `Axion-LNX-v1.0.0.zip`
+- macOS → `Axion-MAC-v1.0.0.zip`
 
 Do **not** download a version made for another operating system.
 
