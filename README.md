@@ -1,6 +1,6 @@
 # Axion
 
-![Axion Logo](AXIONLogo.png)
+![Axion Logo](Logo.png)
 
 <p align="center">
   <b>Simple • Lightweight • Open-Source</b>
