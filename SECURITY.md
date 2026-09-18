@@ -1,44 +1,21 @@
-# Security Policy
-
 ## Supported Versions
 
-| Version | Supported |
-|---|---|
-| 2.0.x | ✅ |
-| < 2.0 | ❌ |
+| Version | Windows | Linux | Status |
+|---|---|---|---|
+| 2.1.x | ✅ Supported | 🧪 Testing | Current Version |
+| 2.0.x | ✅ Supported | 🧪 Early Testing | Supported |
+| 1.5.x | ✅ Supported | ❌ Not Available | Older Version |
+| 1.0.x | ✅ Supported | ❌ Not Available | Older Version |
 
-Only the latest major version of Axion receives active support and security updates.
+### Version History
 
-Older versions are no longer maintained and may not receive fixes.
+- **v1.0** — Windows only
+- **v1.5** — Windows only
+- **v2.0** — Windows supported, first Linux testing started
+- **v2.1** — Linux version added and currently undergoing testing
 
-## Reporting a Vulnerability
+Windows is officially supported in Axion v2.1.
 
-If you discover a security issue or vulnerability in Axion, please report it responsibly.
+Linux support is now included in v2.1 and is currently being tested before being marked as fully supported.
 
-When reporting an issue, please include:
-
-- A clear description of the problem
-- Steps to reproduce the issue
-- The affected Axion version
-- Screenshots or logs if available
-- Any additional information that may help
-
-Please avoid publishing security vulnerabilities publicly before they have been reviewed.
-
-## Security Updates
-
-Confirmed security issues may be fixed in an upcoming Axion update.
-
-Users are encouraged to always use the latest available version of Axion.
-
-## Scope
-
-Security reports should directly concern Axion or the scripts included with the project.
-
-Issues related to third-party websites, applications or external services should be reported to their respective developers.
-
----
-
-<p align="center">
-  Axion Security • ScripthubDev
-</p>
+Older versions may no longer receive regular updates or security fixes.
