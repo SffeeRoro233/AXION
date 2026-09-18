@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows-Compatible-blue">
-  <img src="https://img.shields.io/badge/Linux-Testing%20Planned-orange">
+  <img src="https://img.shields.io/badge/Windows-Supported-blue">
+  <img src="https://img.shields.io/badge/Linux-Coming%20Soon-orange">
+  <img src="https://img.shields.io/badge/EXE-Coming%20Soon-purple">
   <img src="https://img.shields.io/badge/macOS-Future%20Support-red">
-  <img src="https://img.shields.io/badge/Language-Batch-purple">
   <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
   <img src="https://img.shields.io/badge/Version-2.0-pink">
 </p>
@@ -19,36 +19,60 @@
 
 Axion is a simple, lightweight and open-source multitool built for Windows.
 
-It currently uses a lightly customized CMD interface and is designed to stay fast, simple and easy to modify.
+It is designed to be fast, easy to use and highly customizable.
 
-A more polished interface and new features are planned for future updates.
+Axion is still evolving, with major improvements and new platform support planned for upcoming versions.
 
 ## Features
 
-- Lightweight CMD-based interface
+- Lightweight interface
 - Quick tool launcher
 - Easy to use
-- Easy to customize
+- Highly customizable
 - Open-source
 - Built for Windows
+- Multiple tool categories
+- Simple and fast navigation
 
-## Future
+## Upcoming Updates
 
-- Linux testing
-- Future updates and new features
-- Improved CMD interface
-- Better customization
-- More tools
-- macOS compatibility planned for the future
+The next Axion updates are already planned.
 
-> macOS support may take longer because Axion currently relies on Windows Batch (`.bat`) files and CMD.
+### Coming Soon
+
+- [ ] Native `.EXE` version
+- [ ] Linux support
+- [ ] Improved interface
+- [ ] More tools
+- [ ] Better customization
+- [ ] Improved launcher system
+- [ ] New categories and features
+
+### Future
+
+- [ ] macOS support
+- [ ] More platform compatibility
+- [ ] Advanced settings
+- [ ] More customization options
+
+> Linux and `.EXE` support are currently among the main priorities for upcoming Axion updates.
+
+> macOS support is planned for the future and may take longer to develop.
 
 ## Installation
+
+### Current Version
 
 1. Download `AXION.zip`
 2. Extract the ZIP file
 3. Open the Axion folder
 4. Run `Axion.bat`
+
+### Coming Soon
+
+A native `.EXE` version is planned to make Axion easier to install and launch.
+
+Linux support is also currently planned for an upcoming version.
 
 ## Preview
 
@@ -65,39 +89,45 @@ You can customize:
 - Links
 - Tools
 - Logo
-- CMD design
+- Interface design
 - Launch options
+- Categories
 
 ## Roadmap
 
 - [x] Main Axion interface
-- [x] Basic custom design
+- [x] Custom design
 - [x] Quick launch tools
-- [x] Future updates planned
-- [ ] Improved CMD interface
+- [x] Category system
+- [x] GitHub integration
+- [x] Version 2.0
+- [ ] Native `.EXE` support
+- [ ] Linux support
+- [ ] Improved interface
 - [ ] More tools
 - [ ] Better customization
-- [ ] Linux testing
-- [ ] Linux compatibility
 - [ ] macOS compatibility
 
 ## Compatibility
 
-- Windows ✅
-- Linux 🧪 Testing planned
-- macOS ⏳ Planned for the future
+| Platform | Status |
+|---|---|
+| Windows | ✅ Supported |
+| Linux | 🚧 Coming Soon |
+| macOS | ⏳ Planned |
+| `.EXE` Version | 🚧 Coming Soon |
 
-Axion currently relies on Windows Batch (`.bat`) files and CMD.
+Axion currently runs on Windows.
 
-Linux testing is planned for a future update.
+Linux support and a native `.EXE` version are planned for upcoming updates.
 
-macOS compatibility is also planned, but it may take longer to develop.
+macOS compatibility is planned for the future.
 
 ## Open Source
 
 Axion is completely open-source and can be modified to fit your own needs.
 
-Feel free to explore the code, modify it, improve it, or create your own version.
+Feel free to explore the code, modify it, improve it or create your own version.
 
 ## View the Source Code
 
