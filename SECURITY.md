@@ -36,7 +36,7 @@ However, compatibility with every Linux distribution has not yet been individual
 
 | Version | Status |
 |---|---|
-| mac-v1.0.0 | 🧪 Pre-release |
+| mac-v1.0.0 | 🧪 TESTE |
 
 Axion MAC is the macOS edition of Axion.
 
