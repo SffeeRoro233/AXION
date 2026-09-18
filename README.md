@@ -7,17 +7,17 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows%2010%20%26%2011-Supported-blue">
-  <img src="https://img.shields.io/badge/Linux-Coming%20Very%20Soon-orange">
-  <img src="https://img.shields.io/badge/EXE-Coming%20Soon-purple">
-  <img src="https://img.shields.io/badge/macOS-Testing%20%7C%20Coming%20Very%20Soon-red">
-  <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
+  <img src="https://img.shields.io/badge/Windows%2010%20%26%2011-Supported-2F81F7">
+  <img src="https://img.shields.io/badge/Linux-Coming%20Very%20Soon-F39C12">
+  <img src="https://img.shields.io/badge/EXE-Coming%20Soon-A855F7">
+  <img src="https://img.shields.io/badge/macOS-Testing%20%7C%20Coming%20Very%20Soon-6B7280">
+  <img src="https://img.shields.io/badge/Open--Source-Yes-22C55E">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows-v2.0-blue">
-  <img src="https://img.shields.io/badge/Linux-lnx--v1.0.0-orange">
-  <img src="https://img.shields.io/badge/macOS-mac--v1.0.0-red">
+  <img src="https://img.shields.io/badge/Windows-v2.0-2F81F7">
+  <img src="https://img.shields.io/badge/Linux-lnx--v1.0.0-F39C12">
+  <img src="https://img.shields.io/badge/macOS-mac--v1.0.0-6B7280">
 </p>
 
 ## About
