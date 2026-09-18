@@ -7,7 +7,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-blue">
+  <img src="https://img.shields.io/badge/Windows-Compatible-blue">
+  <img src="https://img.shields.io/badge/Linux-Testing%20Soon-orange">
   <img src="https://img.shields.io/badge/Language-Batch-purple">
   <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
   <img src="https://img.shields.io/badge/Version-1.5-pink">
@@ -17,18 +18,20 @@
 
 Axion is a simple, lightweight and open-source multitool built for Windows.
 
-It features a clean CMD interface, quick access to useful tools, and is easy to customize.
+It currently features a lightly customized CMD interface, with a much more polished interface update planned soon.
 
 The project is designed to stay simple, fast and accessible for anyone who wants to modify or expand it.
 
+Linux testing is also planned to begin soon.
+
 ## Features
 
-- Clean CMD interface
+- Lightweight CMD-based interface
 - Quick tool launcher
-- Lightweight
 - Easy to customize
 - Open-source
-- Built for Windows
+- Compatible with Windows
+- Linux testing coming soon
 
 ## Installation
 
@@ -57,12 +60,14 @@ You can customize:
 ## Roadmap
 
 - [x] Main Axion interface
-- [x] Custom design
+- [x] Basic custom design
 - [x] Quick launch tools
+- [x] Future update system / ongoing updates
+- [ ] Major CMD interface redesign
 - [ ] Settings menu
 - [ ] More tools
 - [ ] Better customization
-- [ ] Future updates
+- [ ] Linux testing
 
 ## Open Source
 
