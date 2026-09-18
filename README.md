@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Windows-Supported-blue">
   <img src="https://img.shields.io/badge/Linux-Coming%20Soon-orange">
   <img src="https://img.shields.io/badge/EXE-Coming%20Soon-purple">
-  <img src="https://img.shields.io/badge/macOS-Future%20Support-red">
+  <img src="https://img.shields.io/badge/macOS-Planned-red">
   <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
   <img src="https://img.shields.io/badge/Version-2.0-pink">
 </p>
@@ -21,22 +21,26 @@ Axion is a simple, lightweight and open-source multitool built for Windows.
 
 It is designed to be fast, easy to use and highly customizable.
 
-Axion is still evolving, with major improvements and new platform support planned for upcoming versions.
+Axion is actively evolving, with new tools, platform support and interface improvements planned for future versions.
 
 ## Features
 
 - Lightweight interface
 - Quick tool launcher
-- Easy to use
-- Highly customizable
+- Simple navigation
+- Multiple tool categories
+- Easy to customize
 - Open-source
 - Built for Windows
-- Multiple tool categories
-- Simple and fast navigation
+
+## Installation
+
+1. Download `AXION.zip`
+2. Extract the ZIP file
+3. Open the Axion folder
+4. Run `Axion.bat`
 
 ## Upcoming Updates
-
-The next Axion updates are already planned.
 
 ### Coming Soon
 
@@ -45,68 +49,13 @@ The next Axion updates are already planned.
 - [ ] Improved interface
 - [ ] More tools
 - [ ] Better customization
-- [ ] Improved launcher system
 - [ ] New categories and features
 
 ### Future
 
 - [ ] macOS support
-- [ ] More platform compatibility
 - [ ] Advanced settings
-- [ ] More customization options
-
-> Linux and `.EXE` support are currently among the main priorities for upcoming Axion updates.
-
-> macOS support is planned for the future and may take longer to develop.
-
-## Installation
-
-### Current Version
-
-1. Download `AXION.zip`
-2. Extract the ZIP file
-3. Open the Axion folder
-4. Run `Axion.bat`
-
-### Coming Soon
-
-A native `.EXE` version is planned to make Axion easier to install and launch.
-
-Linux support is also currently planned for an upcoming version.
-
-## Preview
-
-A screenshot of Axion will be added here soon.
-
-## Customization
-
-Axion is designed to be easy to modify.
-
-You can customize:
-
-- Colors
-- Menu options
-- Links
-- Tools
-- Logo
-- Interface design
-- Launch options
-- Categories
-
-## Roadmap
-
-- [x] Main Axion interface
-- [x] Custom design
-- [x] Quick launch tools
-- [x] Category system
-- [x] GitHub integration
-- [x] Version 2.0
-- [ ] Native `.EXE` support
-- [ ] Linux support
-- [ ] Improved interface
-- [ ] More tools
-- [ ] Better customization
-- [ ] macOS compatibility
+- [ ] Additional platform support
 
 ## Compatibility
 
@@ -115,40 +64,49 @@ You can customize:
 | Windows | ✅ Supported |
 | Linux | 🚧 Coming Soon |
 | macOS | ⏳ Planned |
-| `.EXE` Version | 🚧 Coming Soon |
 
-Axion currently runs on Windows.
+The current version of Axion is built for Windows.
 
-Linux support and a native `.EXE` version are planned for upcoming updates.
+Linux support and a native `.EXE` version are among the main priorities for upcoming updates.
 
-macOS compatibility is planned for the future.
+macOS support is planned for a later version.
+
+## Customization
+
+Axion can be customized to fit your needs.
+
+You can modify:
+
+- Colors
+- Menu options
+- Links
+- Tools
+- Categories
+- Logo
+- Interface design
+- Launch options
 
 ## Open Source
 
-Axion is completely open-source and can be modified to fit your own needs.
+Axion is completely open-source.
 
-Feel free to explore the code, modify it, improve it or create your own version.
+You are free to explore the source code, modify it, improve it or create your own version.
 
 ## View the Source Code
 
-If you want to see how Axion works, you can view all of the scripts directly on GitHub.
+You can inspect all Axion scripts directly on GitHub without downloading the project.
 
-### Main Axion Script
+### Main Script
 
-1. Open the `Axion` folder on GitHub.
+1. Open the `Axion` folder.
 2. Click on `Axion.bat`.
-3. GitHub will display the full source code directly in your browser.
+3. The source code will be displayed directly on GitHub.
 
-### Application Scripts
-
-To view the scripts used by the different Axion tools:
+### Tool Scripts
 
 1. Open the `fils` folder.
-2. Choose the tool or application you want to inspect.
-3. Click on its `.bat` file.
-4. The full script will be displayed directly on GitHub.
-
-You do not need to download Axion to inspect the source code.
+2. Choose the tool you want to inspect.
+3. Open its `.bat` file.
 
 ---
 
