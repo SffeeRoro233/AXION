@@ -340,17 +340,17 @@ Make sure you download the correct edition for your system:
 
 For example:
 
-- Windows → `v2.1.0`
-- Linux → `lnx-v1.0.0`
-- macOS → `mac-v1.0.0`
+- Windows → `v2.1`
+- Linux → `lnx-v1.0`
+- macOS → `mac-v1.0`
 
 ### Official Packages
 
 Download the package made for your operating system:
 
-- Windows → `Axion-Windows-v2.1.0.zip`
-- Linux → `Axion-LNX-v1.0.0.zip`
-- macOS → `Axion-MAC-v1.0.0.zip`
+- Windows → `Axion.zip`
+- Linux → `Axion LNX Edition.zip`
+- macOS → `Axion MAC Edition.zip`
 
 Do **not** download a version made for another operating system.
 
