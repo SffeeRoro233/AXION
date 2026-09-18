@@ -8,8 +8,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-Compatible-blue">
-  <img src="https://img.shields.io/badge/Linux-Testing%20Soon-orange">
-  <img src="https://img.shields.io/badge/macOS-Not%20Compatible-red">
+  <img src="https://img.shields.io/badge/Linux-Testing%20Planned-orange">
+  <img src="https://img.shields.io/badge/macOS-Future%20Support-red">
   <img src="https://img.shields.io/badge/Language-Batch-purple">
   <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
   <img src="https://img.shields.io/badge/Version-1.5-pink">
@@ -19,13 +19,9 @@
 
 Axion is a simple, lightweight and open-source multitool built for Windows.
 
-It currently features a lightly customized CMD interface, with a more polished and modern interface update planned soon.
+It currently uses a lightly customized CMD interface and is designed to stay fast, simple and easy to modify.
 
-The project is designed to stay simple, fast and easy to use while also being accessible for anyone who wants to modify or expand it.
-
-Linux testing is planned to begin soon.
-
-macOS is currently not supported because Axion uses Windows Batch files (`.bat`) and CMD.
+A more polished interface and new features are planned for future updates.
 
 ## Features
 
@@ -35,8 +31,17 @@ macOS is currently not supported because Axion uses Windows Batch files (`.bat`)
 - Easy to customize
 - Open-source
 - Built for Windows
-- Linux testing coming soon
-- Future updates planned
+
+## Future
+
+- Linux testing
+- Future updates and new features
+- Improved CMD interface
+- Better customization
+- More tools
+- macOS compatibility planned for the future
+
+> macOS support may take longer because Axion currently relies on Windows Batch (`.bat`) files and CMD.
 
 ## Installation
 
@@ -69,20 +74,24 @@ You can customize:
 - [x] Basic custom design
 - [x] Quick launch tools
 - [x] Future updates planned
-- [ ] Major CMD interface redesign
-- [ ] Settings menu
+- [ ] Improved CMD interface
 - [ ] More tools
 - [ ] Better customization
 - [ ] Linux testing
 - [ ] Linux compatibility
+- [ ] macOS compatibility
 
 ## Compatibility
 
 - Windows ✅
 - Linux 🧪 Testing planned
-- macOS ❌ Not compatible
+- macOS ⏳ Planned for the future
 
-Axion currently relies on Windows Batch (`.bat`) files and CMD, so macOS cannot run the current version natively.
+Axion currently relies on Windows Batch (`.bat`) files and CMD.
+
+Linux testing is planned for a future update.
+
+macOS compatibility is also planned, but it may take longer to develop.
 
 ## Open Source
 
