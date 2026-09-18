@@ -30,7 +30,7 @@ Axion currently supports:
 
 - Windows 10
 - Windows 11
-- Linux
+- Linux (tested on Omarchy, should work on most Linux distros)
 
 A macOS edition is also currently being tested and will be available soon.
 
