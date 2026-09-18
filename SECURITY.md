@@ -4,9 +4,9 @@
 
 | Version | Status |
 |---|---|
-| v2.0.0 | ✅ Supported |
-| v1.5.0 | ⚠️ Older Version |
-| v1.0.0 | ⚠️ Older Version |
+| v2.1 | ✅ Supported |
+| v1.5 | ⚠️ Older Version |
+| v1.0 | ⚠️ Older Version |
 
 Windows is the original and currently stable edition of Axion.
 
@@ -18,7 +18,7 @@ Windows 10 and Windows 11 are officially supported.
 
 | Version | Status |
 |---|---|
-| lnx-v1.0.0 | ✅ Supported |
+| lnx-v1.0 | ✅ Supported |
 
 Axion LNX is the Linux edition of Axion.
 
@@ -36,7 +36,7 @@ However, compatibility with every Linux distribution has not yet been individual
 
 | Version | Status |
 |---|---|
-| mac-v1.0.0 | 🧪 TESTE |
+| mac-v1.0 | 🧪 TESTE |
 
 Axion MAC is the macOS edition of Axion.
 
@@ -48,9 +48,10 @@ The first macOS version is currently available as a pre-release and is still und
 
 ### Windows
 
-- **v1.0.0** — First Windows version
-- **v1.5.0** — Windows update
-- **v2.0.0** — Major interface update and current stable Windows version
+- **v1.0** — First Windows version
+- **v1.5** — Windows update
+- **v2.0** — Major interface update and current stable Windows version
+- **v2.0** — Adds an option under Social Network and an option under Internet more details on the update page.
 
 ### Linux
 
