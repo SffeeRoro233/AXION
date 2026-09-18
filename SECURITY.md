@@ -2,10 +2,10 @@
 
 | Version | Windows | Linux | macOS | Status |
 |---|---|---|---|---|
-| 2.1.x | ✅ Supported | 🧪 Testing | ❌ Not Available | Current Version |
-| 2.0.x | ✅ Supported | 🧪 Early Testing | ❌ Not Available | Supported |
-| 1.5.x | ✅ Supported | ❌ Not Available | ❌ Not Available | Older Version |
-| 1.0.x | ✅ Supported | ❌ Not Available | ❌ Not Available | Older Version |
+| 2.1.0 | ✅ Supported | 🧪 Testing | ❌ Not Available | Current Version |
+| 2.0.0 | ✅ Supported | 🧪 Early Testing | ❌ Not Available | Supported |
+| 1.5.0 | ✅ Supported | ❌ Not Available | ❌ Not Available | Older Version |
+| 1.0.0 | ✅ Supported | ❌ Not Available | ❌ Not Available | Older Version |
 
 ### Version History
 
