@@ -55,21 +55,21 @@ The first macOS version is currently available as a pre-release and is still und
 
 ### Linux
 
-- **lnx-v1.0.0** — First official Linux edition
+- **lnx-v1.0** — First official Linux edition
 - Currently tested on **Omarchy**
 - Expected to work on most desktop Linux distributions
 
 ### macOS
 
-- **mac-v1.0.0** — First macOS edition
+- **mac-v1.0** — First macOS edition
 - Currently in pre-release testing
 
 ## Platform Status
 
 | Platform | Current Version | Status |
 |---|---|---|
-| Windows | v2.0.0 | ✅ Supported |
-| Linux | lnx-v1.0.0 | ✅ Supported |
-| macOS | mac-v1.0.0 | 🧪 Pre-release |
+| Windows | v2.0 | ✅ Supported |
+| Linux | lnx-v1.0 | ✅ Supported |
+| macOS | mac-v1.0 | 🧪 Pre-release |
 
 Older versions may no longer receive regular updates or security fixes.
