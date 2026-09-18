@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-blue">
   <img src="https://img.shields.io/badge/Language-Batch-purple">
   <img src="https://img.shields.io/badge/Open--Source-Yes-brightgreen">
-  <img src="https://img.shields.io/badge/Version-1.0-pink">
+  <img src="https://img.shields.io/badge/Version-1.5-pink">
 </p>
 
 ## About
