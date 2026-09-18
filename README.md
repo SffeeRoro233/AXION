@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows%2010%20%26%2011-Supported-1F4E79">
-  <img src="https://img.shields.io/badge/Linux-Supported-FCC624">
+  <img src="https://img.shields.io/badge/Linux-Supported-D97706">
   <img src="https://img.shields.io/badge/EXE-Coming%20Soon-A855F7">
   <img src="https://img.shields.io/badge/macOS-Testing%20%7C%20Coming%20Soon-000000">
   <img src="https://img.shields.io/badge/Open--Source-Yes-22C55E">
@@ -16,7 +16,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-v2.1-1F4E79">
-  <img src="https://img.shields.io/badge/Linux-lnx--v1.0.0-FCC624">
+  <img src="https://img.shields.io/badge/Linux-lnx--v1.0.0-D97706">
   <img src="https://img.shields.io/badge/macOS-mac--v1.0.0-000000">
 </p>
 
