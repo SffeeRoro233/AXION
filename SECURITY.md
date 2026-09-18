@@ -2,41 +2,40 @@
 
 ## Supported Versions
 
-The following versions of Axion currently receive security fixes and maintenance updates.
-
 | Version | Supported |
 |---|---|
 | 2.0.x | ✅ |
-| 1.5.x | ✅ |
-| 1.0.x | ❌ |
+| < 2.0 | ❌ |
 
-Older versions may no longer receive security updates.
+Only the latest major version of Axion receives active support and security updates.
+
+Older versions are no longer maintained and may not receive fixes.
 
 ## Reporting a Vulnerability
 
 If you discover a security issue or vulnerability in Axion, please report it responsibly.
 
-Please include:
+When reporting an issue, please include:
 
-- A clear description of the issue
-- Steps to reproduce it
+- A clear description of the problem
+- Steps to reproduce the issue
 - The affected Axion version
-- Any screenshots or logs that may help
-- Possible impact, if known
+- Screenshots or logs if available
+- Any additional information that may help
 
-Please avoid publishing the vulnerability publicly before it has been reviewed.
+Please avoid publishing security vulnerabilities publicly before they have been reviewed.
 
-## Response
+## Security Updates
 
-Reports will be reviewed as soon as possible.
+Confirmed security issues may be fixed in an upcoming Axion update.
 
-If the issue is confirmed, a fix may be included in a future Axion update.
+Users are encouraged to always use the latest available version of Axion.
 
 ## Scope
 
-Security reports should relate directly to Axion and its included scripts or tools.
+Security reports should directly concern Axion or the scripts included with the project.
 
-Issues caused by third-party websites, applications or external services used by Axion should be reported to their respective developers.
+Issues related to third-party websites, applications or external services should be reported to their respective developers.
 
 ---
 
