@@ -1,5 +1,5 @@
 @echo off
-title axion - by scripthub
+title axion - by ScripthubDev
 chcp 65001>nul
 color 07
 
