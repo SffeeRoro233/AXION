@@ -46,6 +46,7 @@ A screenshot of Axion will be added here soon.
 Axion is designed to be easy to modify.
 
 You can customize:
+
 - Colors
 - Menu options
 - Links
@@ -65,9 +66,30 @@ You can customize:
 
 ## Open Source
 
-Axion is open-source and can be modified to fit your own needs.
+Axion is completely open-source and can be modified to fit your own needs.
 
-Feel free to explore the code and create your own version.
+Feel free to explore the code, modify it, or create your own version.
+
+## View the Source Code
+
+If you want to see how Axion works, you can view all of the scripts directly on GitHub.
+
+### Main Axion Script
+
+1. Open the `Axion` folder on GitHub.
+2. Click on `Axion.bat`.
+3. GitHub will display the full source code directly in your browser.
+
+### Application Scripts
+
+To view the scripts used by the different Axion tools:
+
+1. Open the `fils` folder.
+2. Choose the tool or application you want to inspect.
+3. Click on its `.bat` file.
+4. The full script will be displayed directly on GitHub.
+
+You do not need to download Axion to inspect the source code.
 
 ---
 
