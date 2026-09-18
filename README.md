@@ -8,9 +8,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows%2010%20%26%2011-Supported-2F81F7">
-  <img src="https://img.shields.io/badge/Linux-Coming%20Very%20Soon-F39C12">
+  <img src="https://img.shields.io/badge/Linux-Supported-F39C12">
   <img src="https://img.shields.io/badge/EXE-Coming%20Soon-A855F7">
-  <img src="https://img.shields.io/badge/macOS-Testing%20%7C%20Coming%20Very%20Soon-6B7280">
+  <img src="https://img.shields.io/badge/macOS-Testing%20%7C%20Coming%20Soon-6B7280">
   <img src="https://img.shields.io/badge/Open--Source-Yes-22C55E">
 </p>
 
@@ -26,13 +26,13 @@ Axion is a simple, lightweight and open-source multitool.
 
 It is designed to be fast, easy to use and highly customizable.
 
-Axion currently officially supports Windows 10 and Windows 11.
+Axion currently supports:
 
-Linux and macOS editions of Axion are also being developed and tested.
+- Windows 10
+- Windows 11
+- Linux
 
-🐧 **Linux support is coming very soon.**
-
-🍎 **macOS support is currently being tested and is also coming very soon.**
+A macOS edition is also currently being tested and will be available soon.
 
 A native Windows `.EXE` version is also planned.
 
@@ -48,8 +48,8 @@ Axion is continuously evolving with new tools, platform support and interface im
 - Open-source
 - Windows 10 support
 - Windows 11 support
-- Linux edition
-- macOS edition
+- Linux support
+- macOS edition in testing
 - More tools and features planned
 
 ## Current Versions
@@ -57,8 +57,8 @@ Axion is continuously evolving with new tools, platform support and interface im
 | Platform | Version | Status |
 |---|---|---|
 | Windows | v2.0 | ✅ Supported |
-| Linux | lnx-v1.0.0 | 🧪 Testing / Coming Very Soon |
-| macOS | mac-v1.0.0 | 🧪 Testing / Coming Very Soon |
+| Linux | lnx-v1.0.0 | ✅ Supported |
+| macOS | mac-v1.0.0 | 🧪 Testing |
 
 Each platform has its own version numbering.
 
@@ -68,7 +68,7 @@ Current version:
 
 `v2.0`
 
-Windows is currently the main stable edition of Axion.
+Windows is the original stable edition of Axion.
 
 Supported systems:
 
@@ -77,15 +77,39 @@ Supported systems:
 
 ### Linux
 
-Current Linux edition:
+Current version:
 
 `lnx-v1.0.0`
 
 Axion LNX is the Linux-compatible edition of Axion.
 
-It uses Bash and Linux-compatible commands while keeping the same Axion concept and interface.
+It uses Bash and Linux-compatible commands while keeping the same Axion concept, interface and tools.
 
-The Linux version is currently undergoing final testing.
+Axion LNX is currently supported.
+
+### Linux Compatibility
+
+Axion LNX has currently only been tested on **Omarchy**.
+
+✅ Tested distribution:
+
+- Omarchy
+
+Since Axion uses Bash and common Linux commands, it is expected to work on most desktop Linux distributions.
+
+This may include distributions such as:
+
+- Ubuntu
+- Linux Mint
+- Debian
+- Fedora
+- Arch Linux
+- Manjaro
+- Other desktop Linux distributions
+
+However, compatibility with every Linux distribution has not yet been individually verified.
+
+If you test Axion on another Linux distribution, you are welcome to report whether it works correctly.
 
 ### macOS
 
@@ -97,30 +121,244 @@ Axion MAC is the macOS-compatible edition of Axion.
 
 It uses macOS-compatible shell scripts and commands while keeping the same Axion concept and interface.
 
-The macOS version is currently undergoing testing.
+The macOS edition is currently undergoing testing.
 
 ## Installation
 
 ### Windows
 
-1. Go to the latest Axion Windows release
-2. Download the official Windows ZIP from the **Assets** section
-3. Extract the ZIP file
-4. Open the Axion folder
-5. Run:
+⚠️ Make sure you select a **Windows release**, not the Linux or macOS release.
+
+1. Go to the Axion Releases page
+2. Select the latest **Windows** release
+3. Download the official Windows ZIP from the **Assets** section
+4. Extract the ZIP file
+5. Open the Axion folder
+6. Run:
 
 `Axion.bat`
 
 ### Linux
 
-Axion LNX is currently being tested and will be publicly available very soon.
+⚠️ **Important: make sure you select the Linux release.**
+
+Linux releases use tags such as:
+
+`lnx-v1.0.0`
+
+Do **not** download a Windows or macOS release if you are using Linux.
+
+1. Go to the Axion Releases page
+2. Find the latest release with a tag beginning with:
+
+`lnx-`
+
+3. Download the official Linux package from the **Assets** section:
+
+`Axion-lnx-v1.0.0.zip`
+
+4. Extract the ZIP file
+5. Open a terminal inside the extracted `Axion` folder
+6. Run:
+
+```bash
+sed -i 's/\r$//' Axion.sh fils/*.sh
+```
+
+7. Then launch Axion with:
+
+```bash
+bash Axion.sh
+```
+
+Axion should now start normally.
+
+### Optional Linux Setup
+
+If you want to make Axion directly executable, run:
+
+```bash
+chmod +x Axion.sh fils/*.sh
+```
+
+You can then launch Axion with:
+
+```bash
+./Axion.sh
+```
+
+### macOS
+
+⚠️ Make sure you select a **macOS release**, not the Windows or Linux release.
+
+macOS releases use tags such as:
+
+`mac-v1.0.0`
+
+The macOS edition is currently being tested and is not yet considered fully stable.
 
 Once available:
 
-1. Download the official Linux ZIP from the **Assets** section
+1. Download the official macOS ZIP from the **Assets** section
 2. Extract the ZIP file
-3. Open a terminal inside the Axion folder
+3. Open Terminal inside the Axion folder
 4. Run:
 
 ```bash
 bash Axion.sh
+```
+
+## Platform Status
+
+### Windows
+
+✅ Supported
+
+- Windows 10
+- Windows 11
+- Current version: `v2.0`
+
+### Linux
+
+✅ Supported
+
+- Current version: `lnx-v1.0.0`
+- Currently tested on Omarchy
+- Expected to work on most desktop Linux distributions
+- Compatibility with every distribution has not yet been individually verified
+
+### macOS
+
+🧪 Testing
+
+- Current edition: `mac-v1.0.0`
+- Public/stable support coming soon
+
+### Native EXE
+
+🚧 Coming Soon
+
+A native `.EXE` edition of Axion is planned for Windows.
+
+## Upcoming Updates
+
+### Coming Soon
+
+- [ ] Native `.EXE` version
+- [ ] macOS stable release
+- [ ] Improved interface
+- [ ] More tools
+- [ ] Better customization
+- [ ] New categories and features
+
+### Future
+
+- [ ] Advanced settings
+- [ ] Additional platform improvements
+- [ ] More cross-platform tools
+- [ ] More Linux distribution testing
+
+## Customization
+
+Axion can be customized to fit your needs.
+
+You can modify:
+
+- Colors
+- Menu options
+- Links
+- Tools
+- Categories
+- Logo
+- Interface design
+- Launch options
+
+## Open Source
+
+Axion is completely open-source.
+
+You are free to:
+
+- Explore the source code
+- Modify Axion
+- Customize the interface
+- Add your own tools
+- Improve existing features
+- Create your own version
+
+## View the Source Code
+
+You can inspect Axion directly on GitHub without downloading it.
+
+### Windows
+
+Main script:
+
+`Axion.bat`
+
+Tool scripts are located inside:
+
+`fils/`
+
+Windows tool scripts use the `.bat` extension.
+
+### Linux
+
+Main script:
+
+`Axion.sh`
+
+Tool scripts are located inside:
+
+`fils/`
+
+Linux scripts use the `.sh` extension.
+
+### macOS
+
+Main script:
+
+`Axion.sh`
+
+Tool scripts are located inside:
+
+`fils/`
+
+macOS scripts also use the `.sh` extension.
+
+## Important Download Notice ⚠️
+
+Axion has separate releases for each operating system.
+
+Make sure you download the correct edition:
+
+| System | Release Tag |
+|---|---|
+| Windows | `v...` |
+| Linux | `lnx-v...` |
+| macOS | `mac-v...` |
+
+For example:
+
+- Windows → `v2.0.0`
+- Linux → `lnx-v1.0.0`
+- macOS → `mac-v1.0.0`
+
+Do **not** download the Windows version on Linux or the Linux version on macOS.
+
+Also, when downloading Axion from a GitHub Release, use the official Axion ZIP located in the **Assets** section.
+
+Do **not** use:
+
+- `Source code (zip)`
+- `Source code (tar.gz)`
+
+These files are automatically generated by GitHub and contain the complete repository, including files that are not required to run Axion.
+
+Always download the package made specifically for your operating system.
+
+---
+
+<p align="center">
+  Made with ❤️ by ScripthubDev
+</p>
