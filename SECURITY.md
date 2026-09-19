@@ -4,19 +4,22 @@
 
 | Version | Status |
 |---|---|
-| v3.0.0 | ✅ Supported |
+| v3.0.1 | ✅ Supported |
+| v3.0.0 | ✅ Older Version |
 | v2.5.0 | ✅ Older Version |
 | v2.2.0 | 🟡 Limited Support |
 | v2.1.0 | 🟡 Limited Support |
-| v2.0.0 | ❌ unsupported |
-| v1.5.0 | ❌ unsupported |
-| v1.0.0 | ❌ unsupporte |
+| v2.0.0 | ❌ Unsupported |
+| v1.5.0 | ❌ Unsupported |
+| v1.0.0 | ❌ Unsupported |
 
 Windows is the original and currently stable edition of Axion.
 
 Windows 10 and Windows 11 are officially supported.
 
-Axion v3.0.0 is currently the main Windows release and introduces one of the biggest updates made to Axion so far.
+**Axion v3.0.1 is currently the latest Windows release.**
+
+v3.0.1 builds on the major v3.0.0 update with additional interface polish, animation improvements and fixes.
 
 ---
 
@@ -68,14 +71,87 @@ It is not yet considered a fully stable release.
 - **v2.2.0** — Added new Internet and Social Network options
 - **v2.5.0** — Major startup and interface update
 - **v3.0.0** — Major Multi-Page & Utility Update
+- **v3.0.1** — Animation, interface polish and stability update
 
 ---
 
-## Windows v3.0.0
+# Windows v3.0.1
 
-Axion v3.0.0 is one of the largest updates released for the Windows edition.
+Axion v3.0.1 is a polishing and improvement update built on top of the major v3.0.0 release.
 
-### New Multi-Page Interface
+It keeps the full v3 interface and tool set while improving animations and the overall experience.
+
+## New Exit Animation
+
+The old basic closing screen has been replaced with a full animated shutdown sequence.
+
+When the user selects:
+
+`[E] Exit`
+
+the large AXION ASCII logo is displayed again.
+
+The exit animation includes:
+
+- Animated AXION logo
+- Wave movement
+- Existing pink / purple / blue Axion colors
+- Smooth continuous animation
+- `CLOSING AXION`
+- `[ScripthubDev]`
+- Longer and cleaner closing sequence
+
+The exit animation uses the same visual identity as the startup animation.
+
+---
+
+## Animation Improvements
+
+v3.0.1 improves the consistency between the startup and shutdown experience.
+
+Axion now has:
+
+- Animated startup logo
+- Animated loading sequence
+- Wave movement
+- Animated ready screen
+- Animated shutdown logo
+- Consistent colors between startup and exit
+
+The original Axion color palette has been preserved.
+
+---
+
+## Interface Polish
+
+Additional small improvements were made to the Windows interface.
+
+These changes focus on:
+
+- Better visual consistency
+- Cleaner transitions
+- Improved spacing
+- Better animation timing
+- More polished startup and shutdown screens
+- More consistent AXION branding
+
+---
+
+## Stability Improvements
+
+v3.0.1 also includes small fixes and improvements intended to make the Windows edition more reliable.
+
+The main interface, tool structure and two-page navigation introduced in v3.0.0 remain unchanged.
+
+---
+
+# Windows v3.0.0
+
+Axion v3.0.0 was one of the largest updates released for the Windows edition.
+
+It introduced the new two-page multitool interface and a large number of new utilities.
+
+## New Multi-Page Interface
 
 Axion now uses a two-page menu system.
 
@@ -127,9 +203,9 @@ Axion now uses a two-page menu system.
 
 ---
 
-### New Navigation
+## New Navigation
 
-Axion now includes:
+Axion includes:
 
 `[N] Next Page`
 
@@ -149,9 +225,9 @@ or:
 
 ---
 
-### New Speedtest
+## New Speedtest
 
-Speedtest can now run directly inside the terminal.
+Speedtest can run directly inside the terminal.
 
 Axion can display:
 
@@ -163,47 +239,51 @@ The browser no longer needs to open for the speed test.
 
 ---
 
-### Website Status
+## Website Status
 
-A new Website Status tool has been added.
+The Website Status tool allows users to check a website directly from Axion.
 
-Users can enter a website and Axion will attempt to determine:
+It can display information such as:
 
-- Whether the website is online
-- HTTP response status
+- Website availability
+- HTTP response
 - Response time
 
 ---
 
-### Whois Lookup
+## Whois Lookup
 
-A new Whois / RDAP lookup tool has been added.
+A Whois / RDAP lookup tool is included.
 
 Users can enter a domain such as:
 
 `youtube.com`
 
-Axion can then display public domain information.
+Axion can then retrieve publicly available domain information.
 
-The tool also includes clearer domain-format instructions and error handling.
+For best compatibility, only the main domain should be entered.
 
----
+Example:
 
-### Roblox Launcher Improvements
+`youtube.com`
 
-Roblox launching has been improved.
+Do not enter:
 
-Axion can now use a dedicated Roblox launcher script instead of relying entirely on a Windows `.lnk` shortcut.
-
-This improves compatibility between different computers.
+`https://www.youtube.com/`
 
 ---
 
-### New System Tools
+## Roblox Launcher Improvements
 
-Axion v3.0.0 introduces several Windows utilities.
+Roblox launching was improved to reduce problems caused by Windows shortcuts.
 
-#### System Info
+Axion can use a dedicated Roblox launcher script instead of depending entirely on a `.lnk` file.
+
+---
+
+## New System Tools
+
+### System Info
 
 Displays information such as:
 
@@ -216,43 +296,43 @@ Displays information such as:
 - Windows user
 - System uptime
 
-#### Task Manager
+### Task Manager
 
 Opens Windows Task Manager.
 
-#### Disk Information
+### Disk Information
 
 Displays storage information for available drives.
 
-#### Startup Apps
+### Startup Apps
 
 Opens the Windows Startup Apps settings.
 
 ---
 
-### New Network Tools
+## New Network Tools
 
-#### DNS Test
+### DNS Test
 
 Performs a DNS lookup.
 
-#### IP Information
+### IP Information
 
 Displays information about the current network connection.
 
-#### Ping Test
+### Ping Test
 
 Tests latency to a domain or IP address.
 
-#### Network Information
+### Network Information
 
 Displays information about network adapters.
 
 ---
 
-### Quick Access Tools
+## Quick Access Tools
 
-Axion can now quickly open:
+Axion can quickly open:
 
 - Downloads
 - Documents
@@ -261,30 +341,28 @@ Axion can now quickly open:
 
 ---
 
-### Interface Rework
+## Interface Rework
 
-The Axion interface has received major visual improvements.
+The v3 interface introduced major visual improvements.
 
 Changes include:
 
 - Cleaner spacing
 - Improved centering
 - Better menu alignment
-- Pink / purple / blue gradient styling
+- Pink / purple / blue styling
 - Improved table borders
 - Better page navigation
-- Better Windows Edition indicator
-- Cleaner input prompt
-- Improved status indicators
-- Better error screens
+- Windows Edition indicator
+- Current version indicator
+- `LAUNCH >` prompt
+- Improved error screens
 
 ---
 
-### Startup Animation Improvements
+## Startup Animation
 
-The AXION startup screen has been improved.
-
-It includes:
+The AXION startup screen includes:
 
 - Animated AXION ASCII logo
 - Pink / purple / blue color transitions
@@ -295,34 +373,9 @@ It includes:
 - `READY`
 - `PRESS ENTER TO LAUNCH AXION`
 
-The animation has also been adjusted to be smoother and better centered.
-
 ---
 
-### Exit Animation
-
-Axion now includes a dedicated shutdown animation.
-
-When the user selects:
-
-`[E] Exit`
-
-Axion displays the large animated AXION logo before closing.
-
-The shutdown animation includes:
-
-- Animated AXION logo
-- Smooth color transitions
-- Wave movement
-- `SHUTTING DOWN AXION`
-- `[ScripthubDev]`
-- Final shutdown status
-
----
-
-### Better Error Handling
-
-Axion now includes improved error screens.
+## Better Error Handling
 
 If a required tool cannot be found, Axion displays:
 
@@ -330,13 +383,17 @@ If a required tool cannot be found, Axion displays:
 
 along with the expected file location.
 
-Invalid menu options also display a dedicated error message.
+Invalid menu options also display an error message.
 
 ---
 
-### Improved Tool Structure
+## Improved Tool Structure
 
-Axion now uses separate tool files inside the `fils` directory.
+Axion uses separate tool files inside:
+
+```text
+fils/
+```
 
 This makes the project easier to:
 
@@ -348,22 +405,9 @@ This makes the project easier to:
 
 ---
 
-### Better Window Handling
+## Centralized Configuration
 
-The Windows terminal size is now adjusted for the Axion interface.
-
-This helps prevent:
-
-- Broken borders
-- Wrapped lines
-- Misaligned menu elements
-- Visual artifacts around the AXION logo
-
----
-
-### Centralized Configuration
-
-Important Axion settings are now stored near the beginning of the main script.
+Important Axion settings are stored near the beginning of the main script.
 
 This includes:
 
@@ -373,16 +417,14 @@ This includes:
 - Releases page
 - Tools directory
 
-Future updates are therefore easier to maintain.
-
 ---
 
-## Linux Version History
+# Linux Version History
 
 - **lnx-v1.0.0** — First official Linux edition
 - **lnx-v1.0.1** — Linux launch and installation improvements
 
-### Linux v1.0.1 Improvements
+## Linux v1.0.1 Improvements
 
 The Linux update improves installation and launch reliability.
 
@@ -399,3 +441,28 @@ After the first setup, Axion can normally be launched with:
 
 ```bash
 ./Axion.sh
+```
+
+Detailed Linux installation and troubleshooting:
+
+https://github.com/SffeeRoro233/Axion-Multitool/releases/tag/lnx-v1.0.1
+
+---
+
+# macOS Version History
+
+- **mac-v1.0.0** — First macOS edition
+- Currently undergoing compatibility and stability testing
+
+---
+
+# Platform Status
+
+| Platform | Current Version | Status |
+|---|---|---|
+| Windows | v3.0.1 | ✅ Supported |
+| Linux | lnx-v1.0.1 | ✅ Supported |
+| macOS | mac-v1.0.0 | 🧪 Testing |
+| Windows EXE | Coming Soon | 🚧 Planned |
+
+Older versions may no longer receive regular updates, fixes or new features.
