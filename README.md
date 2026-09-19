@@ -1,7 +1,3 @@
-# Axion
-
-![Axion Logo](Logo.png)
-
 <p align="center">
   <b>Simple • Lightweight • Open-Source</b>
 </p>
@@ -20,7 +16,7 @@
   <img src="https://img.shields.io/badge/macOS-mac--v1.0.0-3A3A3C">
 </p>
 
-## About
+About
 
 Axion is a simple, lightweight and open-source multitool.
 
@@ -28,127 +24,183 @@ It is designed to be fast, easy to use and highly customizable.
 
 Axion currently supports:
 
-- Windows 10
-- Windows 11
-- Linux *(tested on Omarchy, should work on most Linux distros)*
+Windows 10
+
+Windows 11
+
+Linux (tested on Omarchy, should work on most Linux distros)
 
 A macOS edition is also currently being tested and will be available soon.
 
-A native Windows `.EXE` version is also planned.
+A native Windows .EXE version is also planned.
 
 Axion is continuously evolving with new tools, platform support, animations and interface improvements.
 
-## Features
+Features
 
-- Lightweight interface
-- Animated startup screen
-- Animated AXION logo
-- Moving pink, purple and blue colors
-- Centered loading animation
-- Quick tool launcher
-- Simple navigation
-- Multiple tool categories
-- Easy to customize
-- Open-source
-- Windows 10 support
-- Windows 11 support
-- Linux support
-- macOS edition in testing
-- More tools and features planned
+Lightweight interface
 
-# Windows v2.5 Highlights
+Animated startup screen
+
+Animated AXION logo
+
+Moving pink, purple and blue colors
+
+Centered loading animation
+
+Quick tool launcher
+
+Simple navigation
+
+Multiple tool categories
+
+Easy to customize
+
+Open-source
+
+Windows 10 support
+
+Windows 11 support
+
+Linux support
+
+macOS edition in testing
+
+More tools and features planned
+
+Windows v2.5 Highlights
 
 Axion v2.5 introduces major visual improvements, new tools and a redesigned startup experience for the Windows edition.
 
-## New Startup Experience
+New Startup Experience
 
 The Windows edition now includes a completely redesigned startup screen.
 
 It includes:
 
-- Animated AXION logo
-- Moving pink, purple and blue colors
-- Continuous color animation
-- Large centered loading bar
-- Approximately **3.3 seconds** of loading animation
-- `INITIALIZING AXION` message
-- `AXION LOADED` message
-- `READY` state
-- `PRESS ENTER TO LAUNCH AXION`
-- Continuous animation while waiting for the user
-- Axion launches after pressing **Enter**
-- Startup screen automatically clears before displaying the main interface
+Animated AXION logo
 
-## Interface Improvements
+Moving pink, purple and blue colors
 
-- Improved interface centering
-- Improved spacing and alignment
-- Better centered GitHub repository link
-- Added a `WINDOWS EDITION` indicator in the top-right corner
-- Added the current Axion version under the Windows Edition indicator
-- Replaced the old `AXION >` prompt with:
+Continuous color animation
 
-`LAUNCH >`
+Large centered loading bar
 
-- Improved overall launcher-style appearance
-- General visual improvements
+Approximately 3.3 seconds of loading animation
 
-## New Tools
+INITIALIZING AXION message
+
+AXION LOADED message
+
+READY state
+
+PRESS ENTER TO LAUNCH AXION
+
+Continuous animation while waiting for the user
+
+Axion launches after pressing Enter
+
+Startup screen automatically clears before displaying the main interface
+
+Interface Improvements
+
+Improved interface centering
+
+Improved spacing and alignment
+
+Better centered GitHub repository link
+
+Added a WINDOWS EDITION indicator in the top-right corner
+
+Added the current Axion version under the Windows Edition indicator
+
+Replaced the old AXION > prompt with:
+
+LAUNCH >
+
+Improved overall launcher-style appearance
+
+General visual improvements
+
+New Tools
 
 Axion v2.5 includes:
 
-- Speedtest
-- GitHub
+Speedtest
 
-## Current Tools
+GitHub
 
-### Internet
+Current Tools
 
-- Website
-- Speedtest
+Internet
 
-### Social Networks
+Website
 
-- Discord
-- YouTube
-- GitHub
+Speedtest
 
-### Applications
+Social Networks
 
-- Roblox
+Discord
+
+YouTube
+
+GitHub
+
+Applications
+
+Roblox
 
 More tools will be added in future updates.
 
-# Current Versions
+Current Versions
 
-| Platform | Version | Status |
-|---|---|---|
-| Windows | v2.5.0 | ✅ Supported |
-| Linux | lnx-v1.0.0 | ✅ Supported |
-| macOS | mac-v1.0.0 | 🧪 Testing |
+Platform
+
+Version
+
+Status
+
+Windows
+
+v2.5.0
+
+✅ Supported
+
+Linux
+
+lnx-v1.0.0
+
+✅ Supported
+
+macOS
+
+mac-v1.0.0
+
+🧪 Testing
 
 Each platform has its own version numbering.
 
-# Windows
+Windows
 
 Current version:
 
-`v2.5.0`
+v2.5.0
 
 Windows is the original and stable edition of Axion.
 
 Supported systems:
 
-- Windows 10
-- Windows 11
+Windows 10
+
+Windows 11
 
 The Windows edition uses Batch scripts and includes the latest Axion interface, animations and tools.
 
-# Linux
+Linux
 
 Current version:
 
-`lnx-v1.0.0`
+lnx-v1.0.0
 
 Axion LNX is the Linux-compatible edition of Axion.
 
@@ -156,13 +208,13 @@ It uses Bash and Linux-compatible commands while keeping the same Axion concept,
 
 Axion LNX is currently supported.
 
-## Linux Compatibility
+Linux Compatibility
 
-Axion LNX has currently only been tested on **Omarchy**.
+Axion LNX has currently only been tested on Omarchy.
 
 ✅ Tested distribution:
 
-- Omarchy
+Omarchy
 
 Since Axion uses Bash and common Linux commands, it should work on most desktop Linux distributions.
 
@@ -170,11 +222,11 @@ However, compatibility with every Linux distribution has not yet been individual
 
 If you test Axion on another Linux distribution, you are welcome to report whether it works correctly.
 
-# macOS
+macOS
 
 Current macOS edition:
 
-`mac-v1.0.0`
+mac-v1.0.0
 
 Axion MAC is the macOS-compatible edition of Axion.
 
@@ -184,65 +236,72 @@ The macOS edition is currently undergoing testing.
 
 It is not yet considered fully stable.
 
-# Installation
+Installation
 
-## Windows
+Windows
 
-⚠️ Make sure you select a **Windows release**, not the Linux or macOS release.
+⚠️ Make sure you select a Windows release, not the Linux or macOS release.
 
-1. Go to the Axion Releases page
-2. Select the latest Windows release
-3. Look for a release tag beginning with:
+Go to the Axion Releases page
 
-`v`
+Select the latest Windows release
+
+Look for a release tag beginning with:
+
+v
 
 For example:
 
-`v2.5.0`
+v2.5.0
 
-4. Download the official Windows ZIP from the **Assets** section:
+Download the official Windows ZIP from the Assets section:
 
-`Axion-Windows-v2.5.0.zip`
+Axion-Windows-v2.5.0.zip
 
-5. Extract the ZIP file
-6. Open the Axion folder
-7. Run:
+Extract the ZIP file
 
-`Axion.bat`
+Open the Axion folder
+
+Run:
+
+Axion.bat
 
 Axion will display its startup animation.
 
 Once the loading screen displays:
 
-`PRESS ENTER TO LAUNCH AXION`
+PRESS ENTER TO LAUNCH AXION
 
-Press **Enter** to open the main interface.
+Press Enter to open the main interface.
 
-# ⚠️ VERY IMPORTANT — Roblox Shortcut Fix
+⚠️ VERY IMPORTANT — Roblox Shortcut Fix
 
-## Roblox does not launch / Shortcut error
+Roblox does not launch / Shortcut error
 
 The Windows edition of Axion uses a Roblox Player shortcut to launch Roblox.
 
-The included shortcut may not work on every computer because Windows `.lnk` shortcuts can contain paths specific to the PC where they were originally copied from.
+The included shortcut may not work on every computer because Windows .lnk shortcuts can contain paths specific to the PC where they were originally copied from.
 
 If Roblox does not launch, or Windows displays an error related to the Roblox shortcut:
 
-1. Open the Axion folder
-2. Open the `fils` folder
-3. Delete the included:
+Open the Axion folder
 
-`Roblox Player.lnk`
+Open the fils folder
 
-4. Find the **Roblox Player shortcut already available on your own computer**
-5. Copy or move your Roblox Player shortcut into the Axion `fils` folder
-6. Rename it exactly to:
+Delete the included:
 
-`Roblox Player.lnk`
+Roblox Player.lnk
+
+Find the Roblox Player shortcut already available on your own computer
+
+Copy or move your Roblox Player shortcut into the Axion fils folder
+
+Rename it exactly to:
+
+Roblox Player.lnk
 
 Your folder should then look like this:
 
-```text
 Axion/
 ├── Axion.bat
 └── fils/
@@ -252,379 +311,444 @@ Axion/
     ├── SpeedTest.bat
     ├── Youtube.bat
     └── Roblox Player.lnk
-```
 
 Restart Axion and select:
 
-`[09] Roblox`
+[09] Roblox
 
 Roblox should now launch using the Roblox Player shortcut from your own computer.
 
-> ⚠️ **VERY IMPORTANT:** Do not uninstall or delete Roblox itself. Only replace the `Roblox Player.lnk` shortcut located inside the Axion `fils` folder.
+⚠️ VERY IMPORTANT: Do not uninstall or delete Roblox itself. Only replace the Roblox Player.lnk shortcut located inside the Axion fils folder.
 
-# Linux Installation
+Linux Installation
 
-⚠️ **Important: make sure you select the Linux release.**
+⚠️ Important: make sure you select the Linux release.
 
 Linux releases use tags such as:
 
-`lnx-v1.0.0`
+lnx-v1.0.1
 
-Do **not** download a Windows or macOS release if you are using Linux.
+Do not download a Windows or macOS release if you are using Linux.
 
-1. Go to the Axion Releases page
-2. Find the latest release with a tag beginning with:
+Quick Installation
 
-`lnx-`
+Go to the Axion Releases page.
 
-3. Download the official Linux package from the **Assets** section:
+Find the latest Linux release with a tag beginning with:
 
-`Axion-LNX-v1.0.0.zip`
+lnx-
 
-4. Extract the ZIP file
-5. Open a terminal inside the extracted Axion folder
-6. Run:
+Download the official Linux package from the Assets section.
 
-```bash
-sed -i 's/\r$//' Axion.sh fils/*.sh
-```
+Open the folder containing:
 
-7. Launch Axion with:
+Axion.sh
+fils/
+Logo.ico
 
-```bash
-bash Axion.sh
-```
+Open a terminal inside that folder.
+
+Run:
+
+chmod +x Axion.sh fils/*.sh
+./Axion.sh
 
 Axion should now start normally.
 
-## Optional Linux Setup
+If Axion Does Not Launch
 
-If you want to make Axion directly executable, run:
+If you see an error similar to:
 
-```bash
+env: « bash\r » : Aucun fichier ou dossier de ce nom
+
+run:
+
+sed -i 's/\r$//' Axion.sh fils/*.sh
 chmod +x Axion.sh fils/*.sh
-```
-
-You can then launch Axion with:
-
-```bash
 ./Axion.sh
-```
 
-# macOS Installation
+The sed command removes Windows-style line endings from the Linux scripts, and chmod +x gives the scripts permission to run.
 
-⚠️ Make sure you select a **macOS release**, not the Windows or Linux release.
+These changes are saved on the Linux filesystem, so you normally only need to do them once for the same downloaded copy.
+
+After that, you can usually launch Axion later with:
+
+./Axion.sh
+
+[!TIP]
+Need more details, troubleshooting steps, or the latest Linux-specific instructions?
+
+Visit the official Axion LNX v1.0.1 release page:
+
+https://github.com/SffeeRoro233/Axion-Multitool/releases/tag/lnx-v1.0.1
+
+macOS Installation
+
+⚠️ Make sure you select a macOS release, not the Windows or Linux release.
 
 macOS releases use tags such as:
 
-`mac-v1.0.0`
+mac-v1.0.0
 
 The macOS edition is currently being tested and is not yet considered fully stable.
 
-1. Download the official macOS ZIP from the **Assets** section:
+Download the official macOS ZIP from the Assets section:
 
-`Axion-MAC-v1.0.0.zip`
+Axion-MAC-v1.0.0.zip
 
-2. Extract the ZIP file
-3. Open Terminal inside the Axion folder
-4. Run:
+Extract the ZIP file
 
-```bash
+Open Terminal inside the Axion folder
+
+Run:
+
 bash Axion.sh
-```
 
-# Platform Status
+Platform Status
 
-## Windows
-
-✅ Supported
-
-- Windows 10
-- Windows 11
-- Current version: `v2.5.0`
-- Animated startup screen
-- Latest interface improvements
-- Latest Windows tools
-
-## Linux
+Windows
 
 ✅ Supported
 
-- Current version: `lnx-v1.0.0`
-- Tested on Omarchy
-- Should work on most Linux distributions
-- Compatibility with every distribution has not yet been individually verified
+Windows 10
 
-## macOS
+Windows 11
+
+Current version: v2.5.0
+
+Animated startup screen
+
+Latest interface improvements
+
+Latest Windows tools
+
+Linux
+
+✅ Supported
+
+Current version: lnx-v1.0.0
+
+Tested on Omarchy
+
+Should work on most Linux distributions
+
+Compatibility with every distribution has not yet been individually verified
+
+macOS
 
 🧪 Testing
 
-- Current edition: `mac-v1.0.0`
-- Compatibility testing in progress
-- Stable support coming soon
+Current edition: mac-v1.0.0
 
-## Native EXE
+Compatibility testing in progress
+
+Stable support coming soon
+
+Native EXE
 
 🚧 Coming Soon
 
-A native `.EXE` edition of Axion is planned for Windows.
+A native .EXE edition of Axion is planned for Windows.
 
-# FAQ
+FAQ
 
-## Roblox does not launch. What should I do?
+Roblox does not launch. What should I do?
 
-If you are using the **Windows edition**, the included `Roblox Player.lnk` shortcut may not work on your computer.
+If you are using the Windows edition, the included Roblox Player.lnk shortcut may not work on your computer.
 
 Open:
 
-```text
 Axion/fils/
-```
 
 Delete:
 
-```text
 Roblox Player.lnk
-```
 
-Then find the **Roblox Player shortcut already available on your computer**.
+Then find the Roblox Player shortcut already available on your computer.
 
 Copy or move it into:
 
-```text
 Axion/fils/
-```
 
 Rename it exactly to:
 
-```text
 Roblox Player.lnk
-```
 
 Then restart Axion and select:
 
-```text
 [09] Roblox
-```
 
-> ⚠️ Do not delete or uninstall Roblox itself. Only replace the shortcut inside the Axion `fils` folder.
+⚠️ Do not delete or uninstall Roblox itself. Only replace the shortcut inside the Axion fils folder.
 
-## Why doesn't the included Roblox shortcut work on my PC?
+Why doesn't the included Roblox shortcut work on my PC?
 
-Windows `.lnk` shortcuts can point to paths that are specific to another computer.
+Windows .lnk shortcuts can point to paths that are specific to another computer.
 
 Because the location of Roblox can be different from one PC to another, the included shortcut may not find Roblox correctly.
 
 Using the Roblox Player shortcut from your own computer fixes this issue.
 
-## Does the Roblox shortcut problem affect Linux or macOS?
+Does the Roblox shortcut problem affect Linux or macOS?
 
 No.
 
-This specific `.lnk` shortcut issue only applies to the **Windows edition**.
+This specific .lnk shortcut issue only applies to the Windows edition.
 
 Linux and macOS use different methods to open Roblox.
 
-## Why does Axion show a loading screen?
+Why does Axion show a loading screen?
 
 The loading screen is part of the Axion Windows startup experience.
 
 It includes:
 
-- Animated AXION logo
-- Moving colors
-- Loading bar
-- `READY` state
-- Enter-to-launch screen
+Animated AXION logo
 
-The loading animation lasts approximately **3.3 seconds**.
+Moving colors
 
-## Why do I need to press Enter?
+Loading bar
 
-Axion waits on the `READY` screen before displaying the main interface.
+READY state
+
+Enter-to-launch screen
+
+The loading animation lasts approximately 3.3 seconds.
+
+Why do I need to press Enter?
+
+Axion waits on the READY screen before displaying the main interface.
 
 Press:
 
-`Enter`
+Enter
 
 to launch Axion.
 
-## Linux gives me `$'\r': command not found`. What should I do?
+Linux gives me $'\r': command not found. What should I do?
 
 Run:
 
-```bash
 sed -i 's/\r$//' Axion.sh fils/*.sh
-```
 
 Then start Axion again:
 
-```bash
 bash Axion.sh
-```
 
 This converts Windows-style line endings to Linux-compatible line endings.
 
-# Upcoming Updates
+Upcoming Updates
 
-## Coming Soon
+Coming Soon
 
-- [ ] Native `.EXE` version
-- [ ] macOS stable release
-- [ ] More tools
-- [ ] Better customization
-- [ ] New categories and features
-- [ ] Additional interface improvements
+Native .EXE version
 
-## Future
+macOS stable release
 
-- [ ] Advanced settings
-- [ ] Additional platform improvements
-- [ ] More cross-platform tools
-- [ ] More Linux distribution testing
-- [ ] Additional startup customization
-- [ ] More animations and visual effects
+More tools
 
-# Customization
+Better customization
+
+New categories and features
+
+Additional interface improvements
+
+Future
+
+Advanced settings
+
+Additional platform improvements
+
+More cross-platform tools
+
+More Linux distribution testing
+
+Additional startup customization
+
+More animations and visual effects
+
+Customization
 
 Axion can be customized to fit your needs.
 
 You can modify:
 
-- Colors
-- Menu options
-- Links
-- Tools
-- Categories
-- Logo
-- Interface design
-- Startup animation
-- Loading screen
-- Launch options
+Colors
 
-# Open Source
+Menu options
+
+Links
+
+Tools
+
+Categories
+
+Logo
+
+Interface design
+
+Startup animation
+
+Loading screen
+
+Launch options
+
+Open Source
 
 Axion is completely open-source.
 
 You are free to:
 
-- Explore the source code
-- Modify Axion
-- Customize the interface
-- Add your own tools
-- Improve existing features
-- Modify the startup animation
-- Create your own version
+Explore the source code
 
-# View the Source Code
+Modify Axion
+
+Customize the interface
+
+Add your own tools
+
+Improve existing features
+
+Modify the startup animation
+
+Create your own version
+
+View the Source Code
 
 You can inspect Axion directly on GitHub without downloading it.
 
-## Windows
+Windows
 
 Main script:
 
-`Axion.bat`
+Axion.bat
 
 Tool scripts are located inside:
 
-`fils/`
+fils/
 
-Windows tool scripts use the `.bat` extension.
+Windows tool scripts use the .bat extension.
 
-## Linux
+Linux
 
 Main script:
 
-`Axion.sh`
+Axion.sh
 
 Tool scripts are located inside:
 
-`fils/`
+fils/
 
-Linux scripts use the `.sh` extension.
+Linux scripts use the .sh extension.
 
-## macOS
+macOS
 
 Main script:
 
-`Axion.sh`
+Axion.sh
 
 Tool scripts are located inside:
 
-`fils/`
+fils/
 
-macOS scripts also use the `.sh` extension.
+macOS scripts also use the .sh extension.
 
-# Version History
+Version History
 
-## Windows
+Windows
 
-- `v1.0.0` — First Windows version
-- `v1.5.0` — Interface and tool improvements
-- `v2.0.0` — Major interface redesign
-- `v2.1.0` — Additional interface and compatibility improvements
-- `v2.2.0` — Added Speedtest and GitHub
-- `v2.5.0` — New animated startup experience, continuous color effects, improved interface, loading screen and `LAUNCH >` prompt
+v1.0.0 — First Windows version
 
-## Linux
+v1.5.0 — Interface and tool improvements
 
-- `lnx-v1.0.0` — First official Linux edition
+v2.0.0 — Major interface redesign
 
-Tested on **Omarchy** and expected to work on most desktop Linux distributions.
+v2.1.0 — Additional interface and compatibility improvements
 
-## macOS
+v2.2.0 — Added Speedtest and GitHub
 
-- `mac-v1.0.0` — First macOS edition
+v2.5.0 — New animated startup experience, continuous color effects, improved interface, loading screen and LAUNCH > prompt
+
+Linux
+
+lnx-v1.0.0 — First official Linux edition
+
+Tested on Omarchy and expected to work on most desktop Linux distributions.
+
+macOS
+
+mac-v1.0.0 — First macOS edition
 
 Currently in testing.
 
-# Important Download Notice ⚠️
+Important Download Notice ⚠️
 
 Axion has separate releases for each operating system.
 
 Make sure you download the correct edition for your system:
 
-| System | Edition Name | Release Tag |
-|---|---|---|
-| Windows | Axion | `v...` |
-| Linux | Axion LNX | `lnx-v...` |
-| macOS | Axion MAC | `mac-v...` |
+System
+
+Edition Name
+
+Release Tag
+
+Windows
+
+Axion
+
+v...
+
+Linux
+
+Axion LNX
+
+lnx-v...
+
+macOS
+
+Axion MAC
+
+mac-v...
 
 For example:
 
-- Windows → `v2.5.0`
-- Linux → `lnx-v1.0.0`
-- macOS → `mac-v1.0.0`
+Windows → v2.5.0
 
-## Official Packages
+Linux → lnx-v1.0.0
+
+macOS → mac-v1.0.0
+
+Official Packages
 
 Download the package made for your operating system:
 
-- Windows → `Axion-Windows-v2.5.0.zip`
-- Linux → `Axion-LNX-v1.0.0.zip`
-- macOS → `Axion-MAC-v1.0.0.zip`
+Windows → Axion-Windows-v2.5.0.zip
 
-Do **not** download a version made for another operating system.
+Linux → Axion-LNX-v1.0.0.zip
+
+macOS → Axion-MAC-v1.0.0.zip
+
+Do not download a version made for another operating system.
 
 For example:
 
-- Do not use the Windows version on Linux
-- Do not use Axion LNX on macOS
-- Do not use Axion MAC on Windows
+Do not use the Windows version on Linux
 
-When downloading Axion from a GitHub Release, always use the official ZIP located in the **Assets** section.
+Do not use Axion LNX on macOS
 
-Do **not** download:
+Do not use Axion MAC on Windows
 
-- `Source code (zip)`
-- `Source code (tar.gz)`
+When downloading Axion from a GitHub Release, always use the official ZIP located in the Assets section.
+
+Do not download:
+
+Source code (zip)
+
+Source code (tar.gz)
 
 These files are automatically generated by GitHub and contain the complete repository, including files that are not required to run Axion.
 
 Always download the official Axion package made specifically for your operating system.
-
----
 
 <p align="center">
   Made with ❤️ by ScripthubDev
