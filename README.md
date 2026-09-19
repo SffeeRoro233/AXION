@@ -1,5 +1,7 @@
 # Axion
 
+![Axion Logo](Logo.png)
+
 <p align="center">
   <b>Simple • Lightweight • Open-Source</b>
 </p>
@@ -17,7 +19,6 @@
   <img src="https://img.shields.io/badge/Linux-lnx--v1.0.0-D97706">
   <img src="https://img.shields.io/badge/macOS-mac--v1.0.0-3A3A3C">
 </p>
-
 ## About
 
 Axion is a simple, lightweight and open-source multitool.
